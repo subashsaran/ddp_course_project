@@ -1,0 +1,37 @@
+Developing Data Products: Diamond Dataset Analysis
+========================================================
+author: Subash
+date: 29th Feb 2016
+
+Diamonds Dataset
+========================================================
+type:sub-section
+ Diamonds is a dataset in your RStudio which containing the prices of round cut diamonds and other attributes of almost 54,000 diamonds.
+
+The shape resembles that of a cone and provides maximized light return through the top of the diamond.
+
+Round cut diamonds are cut in a particular form with numerous facets so as to have exceptional brilliance.
+
+ The quality of the cut as follows,- Fair,Good,Very Good,Premium and Ideal
+
+The Shiny application
+========================================================
+type:sub-section
+This application does the basic Exploratory Data Analysis of the diamonds
+dataset using the ggplot2 (barplot).It uses solely the diamond dataset in RStudio, which        you can easily download.This application can be found in this link 
+https://subash.shinyapps.io/MYAPP/
+On the side panel you can change the variables that are injected to the plot (from ggplot2 library).
+You can change which variable go the the X-axis, Y-axis, color by variable, and row/column facets.
+Use it to your advantage in order to extract the maximum logic conclusions out of the plot for latter implementation of Machine Learning Algorithms.
+
+
+========================================================
+<h2><center>Diamond Dataset</center></h2>
+```{r}
+library(ggplot2)
+summary(diamonds)
+```
+
+========================================================
+<h2><center>Barplot of round cut diamonds</center></h2>
+<img src="barplot_of_diamond_dataset.png" width="100%" />

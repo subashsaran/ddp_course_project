@@ -56,6 +56,8 @@ shinyUI(
                                 p('Please note that this is a very basic App intended to provide some introductory exploratory analysis.'),
                                 p("It uses solely the diamond dataset in RStudio, which you can easily download.However you could reproduce this analysis following this link"),
                                 a("http://shiny.rstudio.com/articles/shinyapps.html"),
+                                p("or"),
+                                a("https://github.com/subashsaran/ddp_course_project"),
                                 p('On the side panel you can change the variables that are injected to the plot (from ggplot2 library).'),
                                 p('You can change which variable go the the X-axis, Y-axis, color by variable, and row/column facets.'),
                                 p('Use it to your advantage in order to extract the maximum logic conclusions out of the plot for latter implementation of Machine Learning Algorithms.'),
